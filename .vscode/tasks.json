@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build pzip",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-pthread",
+                "src/pzip.c",
+                "-o",
+                "pzip"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by ChatGPT"
+        }
+    ]
+}
